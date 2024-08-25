@@ -1,8 +1,8 @@
-import logo from "../assets/kevinRushLogo.png"
-import { FaLinkedin } from "react-icons/fa"
-import { FaGithub } from "react-icons/fa"
-import { FaSquareXTwitter } from "react-icons/fa6"
-import { FaInstagram } from "react-icons/fa"
+import logo from "../assets/kevinRushLogo.png";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -17,7 +17,7 @@ const Navbar = () => {
         <FaSquareXTwitter />
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
