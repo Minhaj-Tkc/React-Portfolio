@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project6 from "../assets/projects/project-6.png";
 import project5 from "../assets/projects/project-5.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
@@ -50,6 +51,7 @@ export const PROJECTS = [
   {
     title: "E-Commerce Website",
     image: project1,
+    link: "https://mynew-9a497.firebaseapp.com/",
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
@@ -57,6 +59,7 @@ export const PROJECTS = [
   {
     title: "Task Management App",
     image: project2,
+    link: "https://mynew-9a497.firebaseapp.com/",
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
     technologies: ["HTML", "CSS", "Angular", "Firebase"],
@@ -64,6 +67,7 @@ export const PROJECTS = [
   {
     title: "Portfolio Website",
     image: project3,
+    link: "https://mynew-9a497.firebaseapp.com/",
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
@@ -71,13 +75,23 @@ export const PROJECTS = [
   {
     title: "Blogging Platform",
     image: project4,
+    link: "https://mynew-9a497.firebaseapp.com/",
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
   },
   {
+    title: "Razer Clone",
+    image: project6,
+    link: "https://razer-2e007.firebaseapp.com/",
+    description:
+      "Built a Razer clone using HTML and CSS, showcasing my ability to create responsive web pages and improve my CSS skills.",
+    technologies: ["HTML", "CSS"],
+  },
+  {
     title: "YouTube Clone",
     image: project5,
+    link: "https://mynew-9a497.firebaseapp.com/",
     description:
       "Created a YouTube clone using HTML and CSS, replicating the layout and design of the original site. This project helped me refine my front-end development skills and attention to detail in UI design.",
     technologies: ["HTML", "CSS"],
