@@ -99,8 +99,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  // address: "767 Fifth Avenue, Calicut, Kerala, India",
-  address: "Calicut, Kerala, India",
+  address: "767 Fifth Avenue, Calicut, Kerala, India",
   phoneNo: "+91 7591989628",
   email: "minhajtkc@gmail.com",
 };
